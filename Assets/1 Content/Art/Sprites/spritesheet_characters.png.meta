@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 171e6108fda4e644f8ab513c0c7018bf
-timeCreated: 1486075574
+timeCreated: 1486413055
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -97,6 +97,8 @@ TextureImporter:
     21300180: spritesheet_characters_90
     21300182: spritesheet_characters_91
     21300184: spritesheet_characters_92
+    21300186: spritesheet_characters_93
+    21300188: spritesheet_characters_94
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -223,7 +225,7 @@ TextureImporter:
         width: 89
         height: 43
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -623,10 +625,10 @@ TextureImporter:
         serializedVersion: 2
         x: 163
         y: 293
-        width: 89
+        width: 50
         height: 43
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -727,10 +729,10 @@ TextureImporter:
         serializedVersion: 2
         x: 163
         y: 249
-        width: 89
+        width: 51
         height: 43
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -743,7 +745,7 @@ TextureImporter:
         width: 40
         height: 43
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -860,7 +862,7 @@ TextureImporter:
         width: 39
         height: 43
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -1368,6 +1370,32 @@ TextureImporter:
         height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_characters_93
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 249
+        width: 38
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_characters_94
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 293
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
