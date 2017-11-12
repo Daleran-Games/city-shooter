@@ -27,7 +27,6 @@ namespace ProjectShooter
 
 
         private Rigidbody2D playerRigidbody;
-        private Vector2 mouseWorldPos;
        
         // Use this for initialization
         void Start()
@@ -60,17 +59,17 @@ namespace ProjectShooter
             movement = movement.normalized * speed;
 
             // Move the player to it's current position plus the movement.
-            playerRigidbody.AddRelativeForce(movement);
+            playerRigidbody.AddForce(movement);
         }
 
         void Turning()
         {
             // Create a ray from the mouse cursor on screen in the direction of the camera.
-            Vector2 aimPoint = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            aimPoint = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
             // Create a vector from the player to the point on the floor the raycast from the mouse hit.
-            Vector2 playerToMouse = aimPoint - playerRigidbody.position;
-            float aimAngle = Mathf.Atan2(playerToMouse.y, playerToMouse.x) * Mathf.Rad2Deg;
+            playerToMouse = aimPoint - playerRigidbody.position;
+            aimAngle = Mathf.Atan2(playerToMouse.y, playerToMouse.x) * Mathf.Rad2Deg;
 
             // Set the player's rotation to this new rotation.
             playerRigidbody.rotation = aimAngle - 90f;
